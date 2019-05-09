@@ -1,0 +1,11 @@
+# ipv4 optons
+dhcp-option=lan,option:router,172.16.15.1
+dhcp-option=lan,option:ntp-server,172.16.15.1
+dhcp-option=lan,option:domain-name,lyve.colo.seagate.com
+dhcp-option=lan,252,"\n"
+dhcp-option=lan,vendor:PXEClient,6,2b
+
+# ipv6 options
+dhcp-option=lan,option6:23,[::]
+dhcp-option=lan,option6:24,lyve.colo.seagate.com
+
