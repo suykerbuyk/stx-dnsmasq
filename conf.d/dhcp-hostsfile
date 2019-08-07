@@ -46,6 +46,8 @@ a4:bf:01:5a:d7:2b,set:mgmt,172.16.16.49,lr01u37-p2
 #lr02 - data
 98:03:9b:82:a2:50,set:data,172.16.20.12,4u100-2b-data1
 98:03:9b:82:a2:51,set:data,172.16.20.13,4u100-2b-data2
+98:03:9b:82:9e:d0,set:data,172.16.20.14,4u100-1b-data1
+98:03:9b:82:9e:d1,set:data,172.16.20.14,4u100-1b-data2
 
 
 # IPMI addresses
