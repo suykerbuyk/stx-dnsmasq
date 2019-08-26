@@ -1,6 +1,7 @@
 # ipv4 optons
-option:router,172.16.15.1
-option:ntp-server,172.16.15.1
+tag:mgmt,option:router,172.16.16.1
+tag:data,option:router,172.20.0.1
+tag:mgmt,option:ntp-server,172.16.16.1
 option:domain-name,lyve.colo.seagate.com
 252,"\n"
 vendor:PXEClient,6,2b
