@@ -86,7 +86,7 @@ a4:bf:01:5a:aa:b6,set:mgmt,172.16.18.11,lr02u26-p2
 a4:bf:01:5a:d7:2a,set:mgmt,172.16.18.12,lr02u27
 a4:bf:01:5a:d7:2b,set:mgmt,172.16.18.13,lr02u27-p2
 a4:bf:01:5a:d4:c9,set:mgmt,172.16.18.14,lr02u28
-a4:bf:01:5a:d4:ca,set:mgmt,173.16.18.14,lr02u28-p2
+a4:bf:01:5a:d4:ca,set:mgmt,172.16.18.14,lr02u28-p2
 a4:bf:01:5a:d9:a0,set:mgmt,172.16.18.15,lr02u29
 a4:bf:01:5a:d9:a1,set:mgmt,172.16.18.16,lr02u29-p1
 00:1e:67:bc:22:b5,set:mgmt,172.16.18.17,lr02u30
@@ -120,8 +120,8 @@ a4:bf:01:5a:aa:b7,set:ipmi,172.16.18.110,lr02u26-ipmi
 a4:bf:01:5a:aa:b8,set:ipmi,172.16.18.111,lr02u26-ipmi-p2
 a4:bf:01:5a:aa:b9,set:ipmi,172.16.18.112,lr02u26-ipmi-p3
 a4:bf:01:5a:d7:2c,set:ipmi,172.16.18.113,lr02u27-ipmi
-a4:bf:01:5a:d7:2d,set:ipmi,173.16.18.114,lr02u27-ipmi-p2
-a4:bf:01:5a:d7:2e,set:ipmi,173.16.18.115,lr02u27-ipmi-p3
+a4:bf:01:5a:d7:2d,set:ipmi,172.16.18.114,lr02u27-ipmi-p2
+a4:bf:01:5a:d7:2e,set:ipmi,172.16.18.115,lr02u27-ipmi-p3
 a4:bf:01:5a:d4:cb,set:ipmi,172.16.18.116,lr02u28-ipmi
 a4:bf:01:5a:d4:cc,set:ipmi,172.16.18.117,lr02u28-ipmi-p2
 a4:bf:01:5a:d4:cd,set:ipmi,172.16.18.118,lr02u28-ipmi-p3
