@@ -6,19 +6,15 @@
 b8:6a:97:3b:84:40,set:mgmt,172.16.16.7,lr02sw1   # Mellanox 4100
 
 #Half Rack MGMT
-a4:bf:01:5a:d9:a0,set:mgmt,172.16.16.10,ajax-nx1
 a4:bf:01:5a:ae:97,set:mgmt,172.16.16.11,ajax-nx2
 00:c0:ff:29:a5:f5,set:mgmt,172.16.16.12,ajax-nytro-a
 00:c0:ff:3b:7c:78,set:mgmt,172.16.16.13,ajax-nytro-b
 d8:c4:97:66:5e:2d,set:mgmt,172.16.16.14,ajax-dgx1
-#Half Rack IPMI
-a4:bf:01:5a:d9:a2,set:ipmi,172.16.16.110,ajax-nx1-ipmi
-a4:bf:01:5a:ae:99,set:ipmi,172.16.16.111,ajax-nx2-ipmi
-d8:c4:97:64:e6:f3,set:ipmi,172.16.16.112,ajax-dgx1-ipmi
 
 
 #lr01 - mgmt
 a4:bf:01:69:62:e6,set:mgmt,172.16.17.1,cadmin
+a4:bf:01:69:62:e5,set:mgmt,172.16.17.2,cadmin-p2
 a4:bf:01:69:62:ed,set:mgmt,172.16.17.10,lr01u14
 a4:bf:01:69:62:ec,set:mgmt,172.16.17.11,lr01u14-p2
 a4:bf:01:69:62:fb,set:mgmt,172.16.17.12,lr01u16
@@ -79,8 +75,6 @@ b8:59:9f:52:24:77,set:data,172.20.1.17,lr01u24-data2
 98:03:9b:82:9f:d9,set:data,172.20.1.21,lr01u32-data2
 b8:59:9f:52:24:3f,set:data,172.20.1.22,lr01u34-data1
 b8:59:9f:52:24:3e,set:data,172.20.1.23,lr01u34-data2
-98:03:9b:82:a3:10,set:data,172.20.1.24,lr01u35-data1
-98:03:9b:82:a3:11,set:data,172.20.1.25,lr01u35-data2
 b8:59:9f:52:24:17,set:data,172.20.1.26,lr01u36-data1
 b8:59:9f:52:24:16,set:data,172.20.1.27,lr01u36-data2
 b8:59:9f:52:23:cf,set:data,172.20.1.28,lr01u38-data1
@@ -94,27 +88,34 @@ a4:bf:01:5a:d7:2b,set:mgmt,172.16.18.13,lr02u27-p2
 a4:bf:01:5a:d4:c9,set:mgmt,172.16.18.14,lr02u28
 a4:bf:01:5a:d4:ca,set:mgmt,173.16.18.14,lr02u28-p2
 a4:bf:01:5a:d9:a0,set:mgmt,172.16.18.15,lr02u29
-a4:bf:01:5a:d9:a1,set:mgmt,172.16.18.16,lr02u29-p2
+a4:bf:01:5a:d9:a1,set:mgmt,172.16.18.16,lr02u29-p1
 00:1e:67:bc:22:b5,set:mgmt,172.16.18.17,lr02u30
-00:1e:67:99:09:ca,set:mgmt,172.16.18.18,lr02u31
-00:1e:67:93:e0:00,set:mgmt,172.16.18.19,lr02u31-p2
-00:1e:67:93:e0:01,set:mgmt,172.16.18.20,lr02u31-p3
-00:1e:67:99:00:c4,set:mgmt,172.16.18.21,lr02u32
-00:1e:67:99:00:c5,set:mgmt,172.16.18.22,lr02u32-p2
-a4:bf:01:5a:d4:c9,set:mgmt,172.16.18.23,lr02u33
-a4:bf:01:5a:d4:ca,set:mgmt,172.16.18.24,lr02u33-p1
-a4:bf:01:69:62:6c,set:mgmt,172.16.18.25,lr02u33-p3
-00:1e:67:bc:26:66,set:mgmt,172.16.18.26,lr02u34
-00:1e:67:bc:26:67,set:mgmt,172.16.18.27,lr02u34-p1
-00:1e:67:bc:26:68,set:mgmt,172.16.18.28,lr02u34-p2
-00:1e:67:bc:26:69,set:mgmt,172.16.18.29,lr02u34-p3
-00:1e:67:ac:03:04,set:mgmt,172.16.18.30,lr02u34-10p1
-00:1e:67:ac:03:05,set:mgmt,172.16.18.31,lr02u34-10p2
-00:c0:ff:3c:a6:dc,set:mgmt,172.16.18.32,4u100-1a
-00:c0:ff:3c:a6:d6,set:mgmt,172.16.18.34,4u100-1b
-00:c0:ff:3c:c3:45,set:mgmt,172.16.17.36,4u100-2a
-00:c0:ff:3c:c2:d1,set:mgmt,172.16.17.38,4u100-2b
+00:1e:67:bc:22:b6,set:mgmt,172.16.18.18,lr02u30-p2
+00:1e:67:bc:22:b7,set:mgmt,172.16.18.19,lr02u30-p3
+00:1e:67:bc:22:b8,set:mgmt,172.16.18.20,lr02u30-p4
+00:1e:67:99:09:ca,set:mgmt,172.16.18.21,lr02u31
+00:1e:67:93:e0:00,set:mgmt,172.16.18.22,lr02u31-p2
+00:1e:67:93:e0:01,set:mgmt,172.16.18.23,lr02u31-p3
+00:1e:67:99:00:c4,set:mgmt,172.16.18.24,lr02u32
+00:1e:67:99:00:c5,set:mgmt,172.16.18.25,lr02u32-p2
+00:1e:67:99:00:c6,set:mgmt,172.16.18.26,lr02u32-p3
+00:1e:67:99:00:c7,set:mgmt,172.16.18.26,lr02u32-p4
+00:1e:67:93:df:0c,set:mgmt,172.16.18.27,lr02u32-10p1
+00:1e:67:93:df:0d,set:mgmt,172.16.18.28,lr02u32-10p2
+00:1e:67:bc:26:66,set:mgmt,172.16.18.32,lr02u33
+00:1e:67:bc:26:67,set:mgmt,172.16.18.33,lr02u33-p1
+00:1e:67:bc:26:68,set:mgmt,172.16.18.34,lr02u33-p2
+00:1e:67:bc:26:69,set:mgmt,172.16.18.35,lr02u33-p3
+00:1e:67:ac:03:04,set:mgmt,172.16.18.36,lr02u33-10p1
+00:1e:67:ac:03:05,set:mgmt,172.16.18.37,lr02u33-10p2
+00:c0:ff:3c:a6:dc,set:mgmt,172.16.18.38,4u100-1a
+00:c0:ff:3c:a6:d6,set:mgmt,172.16.18.39,4u100-1b
+00:c0:ff:3c:c3:45,set:mgmt,172.16.17.40,4u100-2a
+00:c0:ff:3c:c2:d1,set:mgmt,172.16.17.41,4u100-2b
 #lr02 - IPMI
+a4:bf:01:69:62:e8,set:ipmi,172.16.18.101,cadmin-ipmi
+a4:bf:01:69:62:e9,set:ipmi,172.16.18.102,cadmin-ipmi2
+a4:bf:01:69:62:ea,set:ipmi,172.16.18.103,cadmin-ipmi3
 a4:bf:01:5a:aa:b7,set:ipmi,172.16.18.110,lr02u26-ipmi
 a4:bf:01:5a:aa:b8,set:ipmi,172.16.18.111,lr02u26-ipmi-p2
 a4:bf:01:5a:aa:b9,set:ipmi,172.16.18.112,lr02u26-ipmi-p3
@@ -124,24 +125,22 @@ a4:bf:01:5a:d7:2e,set:ipmi,173.16.18.115,lr02u27-ipmi-p3
 a4:bf:01:5a:d4:cb,set:ipmi,172.16.18.116,lr02u28-ipmi
 a4:bf:01:5a:d4:cc,set:ipmi,172.16.18.117,lr02u28-ipmi-p2
 a4:bf:01:5a:d4:cd,set:ipmi,172.16.18.118,lr02u28-ipmi-p3
-a4:bf:01:5a:d9:a2,set:ipmi,172.16.18.119,lr02u29-ipmi
-a4:bf:01:5a:d9:a3,set:ipmi,172.16.18.120,lr02u29-ipmi-p2
-a4:bf:01:5a:d9:a4,set:ipmi,172.16.18.121,lr02u29-ipmi-p3
+a4:bf:01:5a:d9:a2,set:ipmi,172.16.16.119,lr02u29-ipmi
+a4:bf:01:5a:d9:a3,set:impi,172.16.16.120,lr02u29-ipmi2
+a4:bf:01:5a:d9:a4,set:impi,172.16.16.121,lr02u29-ipmi2
 00:1e:67:bc:22:b9,set:ipmi,172.16.18.122,lr02u30-ipmi
 00:1e:67:bc:22:ba,set:ipmi,172.16.18.123,lr02u30-ipmi2
 00:1e:67:bc:22:bb,set:ipmi,172.16.18.124,lr02u30-ipmi3
 00:1e:67:99:09:ce,set:ipmi,172.16.18.125,lr02u31-ipmi
-00:1e:67:99:09:c2,set:ipmi,172.16.18.126,lr02u31-ipmi2
+00:1e:67:99:09:cf,set:ipmi,172.16.18.126,lr02u31-ipmi2
+00:1e:67:99:09:d0,set:ipmi,172.16.18.127,lr02u31-ipmi3
 00:1e:67:99:09:d0,set:ipmi,172.16.18.127,lr02u31-ipmi3
 00:1e:67:99:00:c8,set:ipmi,172.16.18.128,lr02u32-ipmi
 00:1e:67:99:00:c9,set:ipmi,172.16.18.129,lr02u32-ipmi2
 00:1e:67:99:00:ca,set:ipmi,172.16.18.130,lr02u32-ipmi3
-a4:bf:01:5a:d4:cc,set:ipmi,172.16.18.131,lr02u33-ipmi
-a4:bf:01:5a:d4:cb,set:ipmi,172.16.18.132,lr02u33-ipmi2
-a4:bf:01:5a:d4:cd,set:ipmi,172.16.18.133,lr02u33-ipmi3
-00:1e:67:bc:26:6a,set:ipmi,172.16.18.134,lr02u34-ipmi
-00:1e:67:bc:26:6b,set:ipmi,172.16.18.135,lr02u34-ipmi2
-00:1e:67:bc:26:6c,set:ipmi,172.16.18.136,lr02u34-ipmi3
+00:1e:67:bc:26:6a,set:ipmi,172.16.18.131,lr02u33-ipmi
+00:1e:67:bc:26:6b,set:ipmi,172.16.18.132,lr02u33-ipmi2
+00:1e:67:bc:26:6c,set:ipmi,172.16.18.133,lr02u33-ipmi3
 00:c0:ff:48:c2:1c,set:ipmi,172.16.18.137,4u100-1a-ipmi
 00:c0:ff:48:c2:1d,set:ipmi,172.16.18.138,4u100-1a-ipmi2
 00:c0:ff:48:c2:04,set:ipmi,172.16.18.139,4u100-1b-ipmi
@@ -162,10 +161,12 @@ b8:59:9f:42:8b:16,set:data,172.20.2.16,lr02u29-data1
 b8:59:9f:42:8b:17,set:data,172.20.2.17,lr02u29-data2
 98:03:9b:cc:12:0c,set:data,172.20.2.18,lr02u30-data1
 98:03:9b:cc:12:0d,set:data,172.20.2.19,lr02u30-data2
-98:03:9b:82:9f:ec,set:data,172.20.2.20,lr02u33-data1
-98:03:9b:82:9f:ed,set:data,172.20.2.21,lr02u33-data2
-98:03:9b:cc:10:fc,set:data,172.20.2.22,lr02u34-data1
-98:03:9b:cc:10:fd,set:data,172.20.2.23,lr02u34-data2
+98:03:9b:82:a3:10,set:data,172.20.2.20,lr02u31-data1
+98:03:9b:82:a3:11,set:data,172.20.2.21,lr02u31-data2
+98:03:9b:82:9f:ec,set:data,172.20.2.22,lr02u32-data1
+98:03:9b:82:9f:ed,set:data,172.20.2.23,lr02u32-data2
+98:03:9b:cc:10:fc,set:data,172.20.2.24,lr02u33-data1
+98:03:9b:cc:10:fd,set:data,172.20.2.25,lr02u33-data2
 98:03:9b:82:a2:2c,set:data,172.20.2.30,4u100-1a-data1
 98:03:9b:82:a2:2d,set:data,172.20.2.31,4u100-1a-data2
 98:03:9b:82:9e:d0,set:data,172.20.2.32,4u100-1b-data1
