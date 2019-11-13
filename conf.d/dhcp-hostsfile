@@ -125,9 +125,9 @@ a4:bf:01:5a:d7:2e,set:ipmi,172.16.18.115,lr02u27-ipmi-p3
 a4:bf:01:5a:d4:cb,set:ipmi,172.16.18.116,lr02u28-ipmi
 a4:bf:01:5a:d4:cc,set:ipmi,172.16.18.117,lr02u28-ipmi-p2
 a4:bf:01:5a:d4:cd,set:ipmi,172.16.18.118,lr02u28-ipmi-p3
-a4:bf:01:5a:d9:a2,set:ipmi,172.16.16.119,lr02u29-ipmi
-a4:bf:01:5a:d9:a3,set:impi,172.16.16.120,lr02u29-ipmi2
-a4:bf:01:5a:d9:a4,set:impi,172.16.16.121,lr02u29-ipmi2
+a4:bf:01:5a:d9:a2,set:ipmi,172.16.18.119,lr02u29-ipmi
+a4:bf:01:5a:d9:a3,set:impi,172.16.18.120,lr02u29-ipmi2
+a4:bf:01:5a:d9:a4,set:impi,172.16.18.121,lr02u29-ipmi2
 00:1e:67:bc:22:b9,set:ipmi,172.16.18.122,lr02u30-ipmi
 00:1e:67:bc:22:ba,set:ipmi,172.16.18.123,lr02u30-ipmi2
 00:1e:67:bc:22:bb,set:ipmi,172.16.18.124,lr02u30-ipmi3
