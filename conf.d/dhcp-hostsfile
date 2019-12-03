@@ -1,17 +1,24 @@
 # Switches
-80:a2:35:41:8e:00,set:mgmt,172.16.16.2,lr01sw1   # Mellanox 4100
-98:03:9b:89:c3:a6,set:mgmt,172.16.16.3,lr01sw2a  # Mellanox SN2100
-98:03:9b:89:c3:ae,set:mgmt,172.16.16.4,lr01sw2b  # Mellanox SN2100
-24:8a:07:28:53:cb,set:mgmt,172.16.16.6,lr02sp1 # Mellanox Spine Switch
-b8:6a:97:3b:84:40,set:mgmt,172.16.16.7,lr02sw1   # Mellanox 4100
-98:03:9b:86:01:3a,set:mgmt,172.16.16.8,lr02sw2a  # Mellanox SN2100, hotside right
-98:03:9b:89:c3:36,set:mgmt,172.16.16.9,lr02sw2b  # Mellanox SN2100, hotside left
+80:a2:35:41:8e:00,set:mgmt,set:switch,set:mlx_arm,172.16.16.2,lr01sw1   # Mellanox 4100
+98:03:9b:89:c3:a6,set:mgmt,set:switch,set:mlx_x64,172.16.16.3,lr01sw2a  # Mellanox SN2100
+98:03:9b:89:c3:ae,set:mgmt,set:switch,set:mlx_x64,172.16.16.4,lr01sw2b  # Mellanox SN2100
+24:8a:07:28:53:ca,set:mgmt,set:switch,set:mlx_x64,172.16.16.6,lr02sp1   # Mellanox Spine Switch
+24:8a:07:28:53:cb,set:mgmt,set:switch,set:mlx_x64,172.16.16.7,lr02sp1p2 # Mellanox Spine Switch
+b8:6a:97:3b:84:40,set:mgmt,set:switch,set:mlx_arm,172.16.16.8,lr02sw1   # Mellanox 4100
+98:03:9b:86:01:3a,set:mgmt,set:switch,set:mlx_x64,172.16.16.9,lr02sw2a  # Mellanox SN2100, hotside right
+98:03:9b:89:c3:36,set:mgmt,set:switch,set:mlx_x64,172.16.16.10,lr02sw2b # Mellanox SN2100, hotside left
 
 #Half Rack MGMT
 a4:bf:01:5a:ae:97,set:mgmt,172.16.16.11,ajax-nx2
 00:c0:ff:29:a5:f5,set:mgmt,172.16.16.12,ajax-nytro-a
 00:c0:ff:3b:7c:78,set:mgmt,172.16.16.13,ajax-nytro-b
 d8:c4:97:66:5e:2d,set:mgmt,172.16.16.14,ajax-dgx1
+d8:c4:97:66:5e:2e,set:mgmt,172.16.16.15,ajax-dgx1-p2
+50:6b:4b:1b:79:f0,set:mgmt,172.16.16.16,ajax-dgx1-data1
+50:6b:4b:35:ec:aa,set:mgmt,172.16.16.17,ajax-dgx1-data2
+50:6b:4b:1b:72:44,set:mgmt,172.16.16.18,ajax-dgx1-data3
+50:6b:4b:1b:6c:d8,set:mgmt,172.16.16.19,ajax-dgx1-data4
+d8:c4:97:64:e6:f3,set:ipmi,172.16.16.100,ajax-dgx1-ipmi
 
 
 #lr01 - mgmt

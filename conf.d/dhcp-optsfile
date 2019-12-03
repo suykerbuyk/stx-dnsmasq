@@ -5,7 +5,8 @@ tag:mgmt,option:ntp-server,172.16.16.1
 option:domain-name,lyve.colo.seagate.com
 252,"\n"
 vendor:PXEClient,6,2b
-#tag:sw_mlx_arm,114,"http://mgmt/repo/switch/cumulus-linux-3.7.6-bcm-armel.bin"
+tag:mlx_x64,114,"http://mgmt/repo/Mellanox/switches/SN2700/cumulus-linux-3.7.10-mlx-amd64.bin"
+tag:mlx_arm,114,"http://mgmt/repo/Mellanox/switches/SN2700/cumulus-linux-3.7.10-bcm-armel.bin"
 
 # ipv6 options
 option6:23,[::]
