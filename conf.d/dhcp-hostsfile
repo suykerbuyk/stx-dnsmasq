@@ -18,12 +18,13 @@ d8:c4:97:66:5e:2e,set:mgmt,172.16.16.15,ajax-dgx1-p2
 50:6b:4b:35:ec:aa,set:mgmt,172.16.16.17,ajax-dgx1-data2
 50:6b:4b:1b:72:44,set:mgmt,172.16.16.18,ajax-dgx1-data3
 50:6b:4b:1b:6c:d8,set:mgmt,172.16.16.19,ajax-dgx1-data4
+ac:1f:6b:4d:e9:66,set:mgmt,172.16.16.20,snow-mgmt
 d8:c4:97:64:e6:f3,set:ipmi,172.16.16.100,ajax-dgx1-ipmi
 
 
 #lr01 - mgmt
-a4:bf:01:69:62:e5,set:mgmt,172.16.17.1,cadmin
-a4:bf:01:69:62:e6,set:mgmt,172.16.17.2,cadmin-p2
+a4:bf:01:69:62:e5,set:mgmt,172.16.17.1,cadmin-p2
+a4:bf:01:69:62:e6,set:mgmt,172.16.17.2,cadmin
 a4:bf:01:69:62:ed,set:mgmt,172.16.17.10,lr01u14
 a4:bf:01:69:62:ec,set:mgmt,172.16.17.11,lr01u14-p2
 a4:bf:01:69:62:fb,set:mgmt,172.16.17.12,lr01u16
@@ -91,6 +92,7 @@ b8:59:9f:52:24:17,set:data,172.20.1.26,lr01u36-data1
 b8:59:9f:52:24:16,set:data,172.20.1.27,lr01u36-data2
 b8:59:9f:52:23:cf,set:data,172.20.1.28,lr01u38-data1
 b8:59:9f:52:23:ce,set:data,172.20.1.29,lr01u38-data2
+ac:1f:6b:07:2d:f1,set:data,172.20.1.30,snow-data
 
 #lr02 - mgmt
 a4:bf:01:5a:aa:b5,set:mgmt,172.16.18.10,lr02u26
