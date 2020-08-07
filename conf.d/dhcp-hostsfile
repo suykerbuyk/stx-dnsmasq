@@ -12,12 +12,12 @@ b8:6a:97:3b:84:40,set:mgmt,set:switch,set:mlx_arm,172.16.16.8,lr02sw1   # Mellan
 a4:bf:01:5a:ae:97,set:mgmt,172.16.16.11,ajax-nx2
 00:c0:ff:29:a5:f5,set:mgmt,172.16.16.12,ajax-nytro-a
 00:c0:ff:3b:7c:78,set:mgmt,172.16.16.13,ajax-nytro-b
-d8:c4:97:66:5e:2d,set:mgmt,172.16.16.14,ajax-dgx1
-d8:c4:97:66:5e:2e,set:mgmt,172.16.16.15,ajax-dgx1-p2
-50:6b:4b:1b:79:f0,set:mgmt,172.16.16.16,ajax-dgx1-data1
-50:6b:4b:35:ec:aa,set:mgmt,172.16.16.17,ajax-dgx1-data2
-50:6b:4b:1b:72:44,set:mgmt,172.16.16.18,ajax-dgx1-data3
-50:6b:4b:1b:6c:d8,set:mgmt,172.16.16.19,ajax-dgx1-data4
+d8:c4:97:66:5e:2d,set:mgmt,172.16.16.14,dgx1
+d8:c4:97:66:5e:2e,set:mgmt,172.16.16.15,dgx1-p2
+50:6b:4b:1b:79:f0,set:mgmt,172.16.16.16,dgx1-data1
+50:6b:4b:35:ec:aa,set:mgmt,172.16.16.17,dgx1-data2
+50:6b:4b:1b:72:44,set:mgmt,172.16.16.18,dgx1-data3
+50:6b:4b:1b:6c:d8,set:mgmt,172.16.16.19,dgx1-data4
 ac:1f:6b:4d:e9:66,set:mgmt,172.16.16.20,snow-mgmt
 d8:c4:97:64:e6:f3,set:ipmi,172.16.16.100,ajax-dgx1-ipmi
 
