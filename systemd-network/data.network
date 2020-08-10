@@ -1,0 +1,6 @@
+[Match]
+Name=ens2f0
+
+[Network]
+Address=172.20.0.1/20
+IPForward=yes
