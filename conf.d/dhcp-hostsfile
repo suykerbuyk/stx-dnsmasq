@@ -189,3 +189,8 @@ b8:59:9f:42:8b:17,set:data,172.20.2.17,lr02u29-data2
 98:03:9b:82:9e:b9,set:data,172.20.2.35,4u100-2a-data2
 98:03:9b:82:a2:50,set:data,172.20.2.36,4u100-2b-data1
 98:03:9b:82:a2:51,set:data,172.20.2.37,4u100-2b-data2
+
+#Virtualized infrastructure
+52:54:00:a2:f9:57,set:mgmt,172.16.17.100,sadmin
+52:54:00:a2:f9:58,set:data,172.16.20.100,sadmin-data1
+52:54:00:a2:f9:59,set:mgmt,172.16.17.101,srmt
