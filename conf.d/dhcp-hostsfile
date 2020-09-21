@@ -191,6 +191,13 @@ b8:59:9f:42:8b:17,set:data,172.20.2.17,lr02u29-data2
 98:03:9b:82:a2:50,set:data,172.20.2.36,4u100-2b-data1
 98:03:9b:82:a2:51,set:data,172.20.2.37,4u100-2b-data2
 
+ac:1f:6b:cd:e7:51,set:ipmi,172.16.18.145,ldr01a-ipmi
+ac:1f:6b:cd:e9:4a,set:ipmi,172.16.18.146,ldr01b-ipmi
+ac:1f:6b:c9:45:e4,set:mgmt,172.16.18.43,ldr01a
+ac:1f:6b:c9:45:58,set:mgmt,172.16.18.44,ldr01b
+1c:34:da:63:30:38,set:data,172.20.2.43,ldr01a-data
+1c:34:da:63:2f:98,set:data,172.20.2.44,ldr01b-data
+
 #Virtualized infrastructure
 52:54:00:a2:f9:57,set:mgmt,172.16.17.100,sadmin
 52:54:00:a2:f9:58,set:data,172.16.20.100,sadmin-data1
