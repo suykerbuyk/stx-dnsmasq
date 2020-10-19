@@ -41,9 +41,9 @@ a4:bf:01:69:d5:ba,set:mgmt,172.16.17.23,lr01u24-mgmt2
 a4:bf:01:5a:d7:15,set:mgmt,172.16.17.24,lr01u35
 a4:bf:01:5a:d7:16,set:mgmt,172.16.17.25,lr01u35-p2
 a4:bf:01:69:e4:fe,set:mgmt,172.16.17.26,lr01u36
-a4:bf:01:69:e4:ff,set:mgmt,172.16.17.26,lr01u36-p2
+a4:bf:01:69:e4:ff,set:mgmt,172.16.17.27,lr01u36-p2
 a4:bf:01:69:e3:a8,set:mgmt,172.16.17.28,lr01u38
-a4:bf:01:69:e3:a7,set:mgmt,172.16.17.27,lr01u38-p2
+a4:bf:01:69:e3:a7,set:mgmt,172.16.17.29,lr01u38-p2
 
 #lr01 - ipmi
 a4:bf:01:69:62:ef,set:ipmi,172.16.17.110,lr01u14-ipmi3
@@ -97,13 +97,13 @@ b8:59:9f:52:23:ce,set:data,172.20.1.29,lr01u38-data1
 b8:59:9f:52:23:cf,set:data,172.20.1.28,lr01u38-data2
 
 #lr02 - mgmt
-a4:bf:01:5a:aa:b5,set:mgmt,172.16.18.10,lr02u26
+a4:bf:01:5a:aa:b5,set:mgmt,172.16.18.10,lr02u26-mgmt
 a4:bf:01:5a:aa:b6,set:mgmt,172.16.18.11,lr02u26-p2
-a4:bf:01:5a:d7:2a,set:mgmt,172.16.18.12,lr02u27
+a4:bf:01:5a:d7:2a,set:mgmt,172.16.18.12,lr02u27-mgmt
 a4:bf:01:5a:d7:2b,set:mgmt,172.16.18.13,lr02u27-p2
-a4:bf:01:5a:d4:c9,set:mgmt,172.16.18.14,lr02u28
+a4:bf:01:5a:d4:c9,set:mgmt,172.16.18.14,lr02u28-mgmt
 a4:bf:01:5a:d4:ca,set:mgmt,172.16.18.15,lr02u28-p2
-a4:bf:01:5a:d9:a0,set:mgmt,172.16.18.16,lr02u29
+a4:bf:01:5a:d9:a0,set:mgmt,172.16.18.16,lr02u29-mgmt
 a4:bf:01:5a:d9:a1,set:mgmt,172.16.18.17,lr02u29-p1
 00:1e:67:bc:22:b5,set:mgmt,172.16.18.18,lr02u30
 00:1e:67:bc:22:b6,set:mgmt,172.16.18.19,lr02u30-p2
@@ -124,10 +124,10 @@ a4:bf:01:5a:d9:a1,set:mgmt,172.16.18.17,lr02u29-p1
 00:1e:67:bc:26:69,set:mgmt,172.16.18.34,lr02u33-p3
 00:1e:67:ac:03:04,set:mgmt,172.16.18.35,lr02u33-10p1
 00:1e:67:ac:03:05,set:mgmt,172.16.18.36,lr02u33-10p2
-00:c0:ff:3c:a6:dc,set:mgmt,172.16.18.38,4u100-1a
-00:c0:ff:3c:a6:d6,set:mgmt,172.16.18.39,4u100-1b
-00:c0:ff:3c:c3:45,set:mgmt,172.16.18.40,4u100-2a
-00:c0:ff:3c:c2:d1,set:mgmt,172.16.18.41,4u100-2b
+00:c0:ff:3c:a6:dc,set:mgmt,172.16.18.38,4u100-1a-mgmt
+00:c0:ff:3c:a6:d6,set:mgmt,172.16.18.39,4u100-1b-mgmt
+00:c0:ff:3c:c3:45,set:mgmt,172.16.18.40,4u100-2a-mgmt
+00:c0:ff:3c:c2:d1,set:mgmt,172.16.18.41,4u100-2b-mgmt
 #lr02 - IPMI
 a4:bf:01:69:62:e8,set:ipmi,172.16.18.101,cadmin-ipmi
 a4:bf:01:69:62:e9,set:ipmi,172.16.18.102,cadmin-ipmi2
@@ -167,13 +167,13 @@ a4:bf:01:5a:d9:a4,set:impi,172.16.18.121,lr02u29-ipmi2
 00:c0:ff:48:c8:5f,set:ipmi,172.16.18.144,4u100-2b-ipmi2
 
 #lr02 - data
-b8:59:9f:42:e8:a4,set:data,172.20.2.10,lr02u26-data1
+b8:59:9f:42:e8:a4,set:data,172.20.2.10,lr02u26
 b8:59:9f:42:e8:a5,set:data,172.20.2.11,lr02u26-data2
-b8:59:9f:42:8b:e6,set:data,172.20.2.12,lr02u27-data1
+b8:59:9f:42:8b:e6,set:data,172.20.2.12,lr02u27
 b8:59:9f:42:8b:e7,set:data,172.20.2.13,lr02u27-data2
-b8:59:9f:42:c1:d2,set:data,172.20.2.14,lr02u28-data1
+b8:59:9f:42:c1:d2,set:data,172.20.2.14,lr02u28
 b8:59:9f:42:c1:d3,set:data,172.20.2.15,lr02u28-data2
-b8:59:9f:42:8b:16,set:data,172.20.2.16,lr02u29-data1
+b8:59:9f:42:8b:16,set:data,172.20.2.16,lr02u29
 b8:59:9f:42:8b:17,set:data,172.20.2.17,lr02u29-data2
 98:03:9b:cc:12:0c,set:data,172.20.2.18,lr02u30-data1
 98:03:9b:cc:12:0d,set:data,172.20.2.19,lr02u30-data2
@@ -183,13 +183,13 @@ b8:59:9f:42:8b:17,set:data,172.20.2.17,lr02u29-data2
 98:03:9b:82:9f:ed,set:data,172.20.2.23,lr02u32-data2
 98:03:9b:cc:10:fc,set:data,172.20.2.24,lr02u33-data1
 98:03:9b:cc:10:fd,set:data,172.20.2.25,lr02u33-data2
-98:03:9b:82:a2:2c,set:data,172.20.2.30,4u100-1a-data1
+98:03:9b:82:a2:2c,set:data,172.20.2.30,4u100-1a
 98:03:9b:82:a2:2d,set:data,172.20.2.31,4u100-1a-data2
-98:03:9b:82:9e:d0,set:data,172.20.2.32,4u100-1b-data1
+98:03:9b:82:9e:d0,set:data,172.20.2.32,4u100-1b
 98:03:9b:82:9e:d1,set:data,172.20.2.33,4u100-1b-data2
-98:03:9b:82:9e:b8,set:data,172.20.2.34,4u100-2a-data1
+98:03:9b:82:9e:b8,set:data,172.20.2.34,4u100-2a
 98:03:9b:82:9e:b9,set:data,172.20.2.35,4u100-2a-data2
-98:03:9b:82:a2:50,set:data,172.20.2.36,4u100-2b-data1
+98:03:9b:82:a2:50,set:data,172.20.2.36,4u100-2b
 98:03:9b:82:a2:51,set:data,172.20.2.37,4u100-2b-data2
 
 ac:1f:6b:cd:e7:51,set:ipmi,172.16.18.145,ldr01a-ipmi
@@ -204,3 +204,4 @@ ac:1f:6b:c9:45:58,set:mgmt,172.16.18.44,ldr01b
 52:54:00:a2:f9:58,set:data,172.16.20.100,sadmin-data1
 52:54:00:a2:f9:59,set:mgmt,172.16.17.101,srmt
 52:54:00:d6:13:78,set:mgmt,172.16.17.102,upilot
+#00:10:75:63:f0:5c,set:mgmt,172,16.17.103,ra-shuttle
