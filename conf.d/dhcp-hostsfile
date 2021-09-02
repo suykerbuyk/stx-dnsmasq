@@ -4,9 +4,10 @@
 98:03:9b:89:c3:ae,set:mgmt,set:switch,set:mlx_x64,172.16.16.4,lr01sw2b  # Mellanox SN2100
 24:8a:07:28:53:ca,set:mgmt,set:switch,set:mlx_x64,172.16.16.6,lr02sp1   # Mellanox Spine Switch
 24:8a:07:28:53:cb,set:mgmt,set:switch,set:mlx_x64,172.16.16.7,lr02sp1p2 # Mellanox Spine Switch
-b8:6a:97:3b:84:40,set:mgmt,set:switch,set:mlx_arm,172.16.16.8,lr02sw1   # Mellanox 4100
+#b8:6a:97:3b:84:40,set:mgmt,set:switch,set:mlx_arm,172.16.16.8,lr02sw1   # Mellanox 4100  Not responding?
 98:03:9b:86:01:3a,set:mgmt,set:switch,set:mlx_x64,172.16.16.9,lr02sw2a  # Mellanox SN2100, hotside right
 98:03:9b:89:c3:36,set:mgmt,set:switch,set:mlx_x64,172.16.16.10,lr02sw2b # Mellanox SN2100, hotside left
+1c:ea:0b:44:b5:c0,set:mgmt,set:switch,set:mlx_arm,172.16.16.11,lr03sw1  # Mellanox 4100, rack 3
 
 #Half Rack MGMT
 a4:bf:01:5a:ae:97,set:mgmt,172.16.16.11,ajax-nx2
